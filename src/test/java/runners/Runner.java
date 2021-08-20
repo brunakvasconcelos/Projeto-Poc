@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features ="src\\main\\resources\\features\\pesquisa.feature",
-        glue = "src/main/java/steps/PesquisaSteps.java",
+        features ="src/test/resources/features/pesquisa.feature",
+        glue = "src/test/java/steps/PesquisaSteps.java",
         plugin = {"pretty"},
         //tags = {},
         snippets = CucumberOptions.SnippetType.CAMELCASE,
