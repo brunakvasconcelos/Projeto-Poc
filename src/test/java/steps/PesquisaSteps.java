@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class PesquisaSteps {
 private WebDriver driver;
+@Test
 
     @Dado("que acsesso a area de desenvolvedores")
     public void queAcsessoAAreaDeDesenvolvedores() {
@@ -19,8 +20,6 @@ private WebDriver driver;
         driver.get("https://developers.trello.com/");
     }
 
-    @Quando("^clico em search$")
-    public void clicoEmSearch() throws Throwable {
 
     @Quando("clico em search digitando o assunto")
     public void clicoEmSearchDigitandoOAssunto() {

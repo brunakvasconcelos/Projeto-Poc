@@ -14,6 +14,6 @@ Funcionalidade: : Pesquisa
 
 @testLogin
 Cenario: Exibir erro ao tentar logar sem usuario e senha
-  Dado que clico em "log in"
-  Quando clico em "Continuar"
-  Entao Exibe mensagem "Insira um endereço de e-mail"
+  Dado que clico em log in
+  Quando clico em Continuar
+  Entao Exibe mensagem Insira um endereço de e-mail

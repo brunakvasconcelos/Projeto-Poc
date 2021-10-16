@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features ="src/test/resources/features",
         glue = {"src/test/java/steps"},
         plugin = { "pretty", "io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"},
-        //tags = {"@test"},
+        //tags = {"@testLogin"},
         strict = true,
         snippets = CucumberOptions.SnippetType.CAMELCASE
        // dryRun = false
