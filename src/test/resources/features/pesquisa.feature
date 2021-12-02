@@ -1,19 +1,19 @@
 #language:pt
-Funcionalidade: : Pesquisa
-  Como usuário
+# encoding: utf-8
+Funcionalidade: Pesquisa
+  Como usuario
   Eu quero  acessar a area de pesquisa
-  Para que eu possa pesquisar sobre buttons
+  Para que eu possa pesquisar sobre determinado assunto
 
-@test1
-  Cenario: : Fazer pesquisa na area de desenvlvedor do site Trello
+@ignore
+  Cenario: Fazer pesquisa na area de desenvolvedor do site Trello
     Dado que acsesso a area de desenvolvedores
     Quando clico em search digitando o assunto
     E dou enter
     Entao visualizo o resultado da pesquisa
 
-
 @testLogin
 Cenario: Exibir erro ao tentar logar sem usuario e senha
-  Dado que clico em log in
+  Dado que clico em login
   Quando clico em Continuar
-  Entao Exibe mensagem Insira um endereço de e-mail
+  Entao Exibe mensagem Insira um endereco de email
